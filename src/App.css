@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Architects Daughter', cursive;
+}
+
+body{
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bmi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin: 8% auto; 
+  padding: 20px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  height: auto;
+  background: #232526;  /* fallback for old browsers */
+  color: whitesmoke;
+
+}
+
+h2{
+  padding: 5px;
+  font-size: 35px;
+}
+
+p{
+  text-align: center;
+  font-size: 25px;
+}
+
+.bmi .gender-btn {
+  text-align: center;
+
+  width: 150px;
+  height: 90px;
+  margin: 5px;
+
+  background-color: #585858;
+  border: none;
+  color: aliceblue;
+
+  cursor: pointer;
+  font-size: large;
+  border-radius: 15px;
+  outline: none;
+  box-shadow: 6px 6px 4px #000000;
+  transition: .5s;
+}
+
+.bmi .gender-btn.female{
+  float: right;
+}
+
+.bmi .gender-btn:hover{
+  transform: scale(1.05);
+  background-color: #A0A0A0;
+}
+
+.gender-text{
+  font-size: 30px;
+  margin: 5px;
+}
+
+.slider{
+  margin: 15px;
+}
+
+#non-linear-slider{
+  text-align:center;
+  font-size: 25px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.slider-line{
+  transform: scale(1.09);
+}
+
+.age-counter{
+  text-align: center;
+  min-height: 100px;
+  width: 100px;
+  float: left;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.age-counter .age-btn{
+  width: 33px;
+  height: 33px;
+  margin: 10px 5px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #585858;
+  box-shadow: 3px 3px 2px #000000;
+  transition: .2s;
+  color: whitesmoke;
+  font-size: 24px;
+}
+
+.weight-counter{
+  text-align: center;
+  min-height: 100px;
+  width: 100px;
+  float: left;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.weight-counter .weight-btn{
+  width: 33px;
+  height: 33px;
+  margin: 10px 5px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #585858;
+  box-shadow: 3px 3px 2px #000000;
+  transition: .2s;
+  color: whitesmoke;
+  font-size: 24px;
+}
+
+.weight-counter .weight-btn:hover, .age-counter .age-btn:hover, .bmi .btn:hover{
+  transform: scale(1.05);
+  background-color: #A0A0A0;
+}
+
+.bmi .btn{  
+  margin: 10px 5px; 
+  width: 120px;
+  height: 110px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #585858;
+  box-shadow: 3px 3px 2px #000000;
+  transition: .5s;
+  color: whitesmoke;
+  font-size: 18px;
+  text-align: center;
+}
+
+.bmi .bmi-result{
+  font-size: 30px;
+}
